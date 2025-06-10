@@ -1,0 +1,12 @@
+listen": ":443",
+  "protocol": "udp",
+  "obfs": "salamander",
+  "obfsparam": "iyad2012obfs",
+  "auth": {
+    "mode": "password",
+    "password": "iyad2012"
+  },
+  "alpn": ["h3"],
+  "recvWindow": 4194304,
+  "sendWindow": 4194304,
+  "maxConnClient": 16
